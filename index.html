@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>최가현의 포트폴리오</title>
+    <style>
+        /* CSS는 <style> 태그 안에 작성하거나 별도의 .css 파일로 분리할 수 있습니다. */
+        /* 여기서는 간단한 스타일을 인라인으로 포함하여 보여드립니다. */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77b300 3px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .project-item {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .project-item h3 {
+            margin-top: 0;
+            color: #007bff;
+        }
+        .project-item a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .project-item a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>최가현</h1>
+            <p>동양미래대학교 재학생 | 웹 개발자 지망생</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                안녕하세요! 동양미래대학교에 재학 중인 최가현입니다. 웹 개발에 대한 열정을 가지고 새로운 기술을 배우고 적용하는 것을 즐깁니다. 사용자에게 가치를 제공하는 직관적이고 효율적인 웹 애플리케이션을 만드는 데 관심이 많습니다. 꾸준히 성장하며 기여할 수 있는 개발자가 되기 위해 노력하고 있습니다.
+            </p>
+            <p>
+                특히 <strong>HTML, CSS, JavaScript</strong>를 기반으로 프론트엔드 개발에 집중하고 있으며, 백엔드 기술에도 꾸준히 학습하며 풀스택 개발 역량을 키우고자 합니다.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>프론트엔드:</strong> HTML5, CSS3, JavaScript (ES6+), React (학습 중)</li>
+                <li><strong>백엔드:</strong> Node.js (기본), Python (기본)</li>
+                <li><strong>데이터베이스:</strong> MySQL (기본)</li>
+                <li><strong>도구:</strong> Git, VS Code</li>
+                <li><strong>언어:</strong> 한국어 (원어민), 영어 (초급)</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>프로젝트 1: 반응형 개인 블로그</h3>
+                <p>HTML, CSS, JavaScript를 활용하여 제작한 개인 블로그입니다. 다양한 디바이스에서 최적화된 화면을 제공하며, 게시물 작성 및 조회 기능을 구현했습니다.</p>
+                <p><strong>주요 기능:</strong> 반응형 디자인, 게시물 목록, 게시물 상세 보기</p>
+                <p><a href="#" target="_blank">프로젝트 보러가기 (링크 예정)</a></p>
+            </div>
+            <div class="project-item">
+                <h3>프로젝트 2: 할 일 관리 웹 애플리케이션</h3>
+                <p>사용자가 할 일을 추가, 삭제, 완료 처리할 수 있는 간단한 웹 애플리케이션입니다. 로컬 스토리지를 활용하여 데이터를 저장합니다.</p>
+                <p><strong>주요 기술:</strong> JavaScript, LocalStorage</p>
+                <p><a href="#" target="_blank">프로젝트 보러가기 (링크 예정)</a></p>
+            </div>
+            </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>저에 대해 더 궁금하시거나 함께 작업하고 싶으시다면 언제든지 연락 주세요!</p>
+            <ul>
+                <li><strong>이메일:</strong> your.email@example.com</li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
+                <li><strong>LinkedIn:</strong> <a href="#" target="_blank">linkedin.com/in/yourprofile (링크 예정)</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 최가현. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
